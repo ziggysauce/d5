@@ -1,0 +1,35 @@
+.bar-chart {
+  background: linear-gradient(135deg, #ffdc30, #ff5349);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5px 10px 5px;
+  box-shadow: 0 14px 10px -6px lightgrey;
+  border-radius: 3px;
+}
+
+.label {
+  fill: white;
+  text-anchor: middle;
+}
+
+.bar-top {
+  stop-color: #1eb8ff;
+}
+
+.bar-bottom {
+  stop-color: #5e00aa;
+}
+
+
+rect {
+  // fill: #3f117c;
+  fill: url(#gradient);
+  transition: 0.3s;
+}
+
+rect:hover {
+  fill: #68d168;
+  transition: 0.3s;
+}

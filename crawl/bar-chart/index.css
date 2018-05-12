@@ -1,0 +1,41 @@
+html, body {
+  font-family: sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container h1, h2, h3 {
+  margin-top: 0;
+}
+
+.bar-chart {
+  background: linear-gradient(135deg, #ffdc30, #ff5349);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 25px 10px 25px;
+  box-shadow: 0 14px 10px -6px lightgrey;
+  border-radius: 3px;
+}
+
+.label {
+  fill: white;
+  text-anchor: middle;
+}
+
+rect {
+  fill: #3f117c;
+  transition: 0.3s;
+}
+
+rect:hover {
+  fill: #68d168;
+  transition: 0.3s;
+}
