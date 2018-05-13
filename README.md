@@ -13,9 +13,9 @@
 
 ## About
 **D5** is where **D**an **D**oes **D**ata-**D**riven **D**ocuments. A repository meant to focus on creating small to large applications using the D3.js library. Intentions are to learn and gain experience working with D3 while creating stunning, beautiful visualizations of data. Projects are broken down into three parts:  
-* [Crawl](https://github.com/ziggysauce/d5/tree/master/crawl)      Introductory- to intermediate-level apps (vanilla JS)
-* [Walk](https://github.com/ziggysauce/d5/tree/master/walk)        Introductory to intermediate-level apps (ReactJS)
-* [Run](https://github.com/ziggysauce/d5/tree/master/run)          Advanced-level apps
+* [Crawl](https://github.com/ziggysauce/d5/tree/master/crawl): Introductory- to intermediate-level apps (vanilla JS)
+* [Walk](https://github.com/ziggysauce/d5/tree/master/walk): Introductory to intermediate-level apps (ReactJS)
+* [Run](https://github.com/ziggysauce/d5/tree/master/run): Advanced-level apps
 
 
 ## Setup
