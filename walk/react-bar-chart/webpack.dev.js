@@ -17,7 +17,7 @@ module.exports = merge(common, {
   ],
   devtool: 'cheap-module-eval-source-map',
   devServer: {
-    contentBase: './client/src',
+    contentBase: './src',
     hot: true,
   },
 });

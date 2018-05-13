@@ -51,16 +51,17 @@ class Chart extends Component {
   }
 
   render() {
-    console.log(this.state.dataset);
-
     return (
       <div>
-        <h2>Chart info here!</h2>
         <svg>
           <defs>
             <linearGradient id="gradient" gradientTransform="rotate(105)">
               <stop className="bar-top" offset="0%"/>
               <stop className="bar-bottom" offset="100%"/>
+            </linearGradient>
+            <linearGradient id="gradient2" gradientTransform="rotate(105)">
+              <stop className="bar-top2" offset="0%"/>
+              <stop className="bar-bottom2" offset="100%"/>
             </linearGradient>
           </defs>
         </svg>

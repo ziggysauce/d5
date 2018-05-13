@@ -22,14 +22,19 @@
   stop-color: #5e00aa;
 }
 
+.bar-top2 {
+  stop-color: #58ffb1;
+}
+
+.bar-bottom2 {
+  stop-color: #00644f;
+}
+
 
 rect {
-  // fill: #3f117c;
   fill: url(#gradient);
-  transition: 0.3s;
 }
 
 rect:hover {
-  fill: #68d168;
-  transition: 0.3s;
+  fill: url(#gradient2);
 }

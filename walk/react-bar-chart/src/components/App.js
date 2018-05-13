@@ -3,7 +3,7 @@ import Chart from './Chart';
 
 const App = () => (
   <div className="app-container">
-    <h1>React-Vis</h1>
+    <h1>React Bar Chart</h1>
     <Chart />
   </div>
 );

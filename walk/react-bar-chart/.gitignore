@@ -59,3 +59,5 @@ typings/
 
 # production dist directory
 dist
+
+.DS_Store

@@ -3,9 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); // create index.html f
 const CleanWebpackPlugin = require('clean-webpack-plugin'); // deletes old dist folder for clean build
 
 module.exports = {
-  entry: { main: './client/src/index.js' },
+  entry: { main: './src/index.js' },
   output: {
-    path: path.join(__dirname, './client/dist'),
+    path: path.join(__dirname, './dist'),
     publicPath: '',
     filename: '[name].[hash].js',
   },
@@ -23,7 +23,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: false,
       hash: false,
-      template: './client/src/index.html',
+      template: './src/index.html',
       filename: 'index.html',
     }),
   ],
