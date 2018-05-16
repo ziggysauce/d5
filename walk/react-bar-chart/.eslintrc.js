@@ -6,8 +6,6 @@ module.exports = {
   plugins: ["react"],
   "rules": {
     "linebreak-style": 0,
-  },
-  "rules": {
     "class-methods-use-this": ["warn", {
       "exceptMethods": [
         "render",
